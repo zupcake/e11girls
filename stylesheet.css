@@ -1,0 +1,373 @@
+
+/* Awal bagian 1 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.clear {
+  clear: left;
+}
+
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  
+}
+
+.top-wrapper {
+  padding: 280px 0 100px 0;
+  background: url(https://i.dailymail.co.uk/1s/2019/07/20/09/16196320-7258635-Danica_wanted_to_pay_homage_to_her_ballerina_roots_for_the_gathe-a-1_1563610435450.jpg);
+  background-size: cover;
+  text-align: center;
+  opacity: 0.7;
+  
+  animation: image-fade-in 1.5s ease-in;
+  animation-fill-mode: both;
+}
+
+.top-wrapper .title-bday {
+  
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px black;
+  color: white;
+  
+  animation: text-fade-in 1s ease-out 1.8s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes image-fade-in{
+  from{
+    opacity: 0;
+    height:0%;
+  }
+  to{
+    height:100%;
+  }
+}
+
+@keyframes text-fade-in{
+  from{
+    opacity: 0;
+  
+  }
+  to{
+    opacity: 1;
+    
+  }
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #fab1a0;
+  position :fixed;
+  top: 0;
+  opacity: 0.9;
+  z-index: 10;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  height:60px;
+  float: left;
+}
+.foto {
+  width: 100px;
+  margin-top: 15px;
+  line-height: 65px;
+  height: 105px;
+ 
+}
+
+.header-left {
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  
+}
+
+.menu-left {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+}
+
+.menu-right {
+  border:2px solid white;
+  border-radius: 5em / 5em;
+  height:35px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  line-height: 35px;
+  margin-top: 15px;
+
+}
+
+
+.header-right .menu-right:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-left .menu-left:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+/* akhir bagian 1 */
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+/* Awal bagian 3 */
+
+.message-wrapper{
+  padding-bottom:80px;
+  text-align:center;
+  border-bottom:1px solid #eee;
+  padding-top:80px;
+  background-color: #70885d;
+  width: auto;
+  height: auto;
+}
+
+.heading4 h2 {
+  font-size:20px;
+  font-family:Arial;
+  color:#ADA99D;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
+
+.heading4 p {
+  font-size:17px;
+  font-family:"lucida grande";
+  color:#ADA99D;
+  font-weight: bold;
+  margin:0 auto;
+  line-height: 29px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* awal bagian 5 */
+
+.message-wrapper1 {
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.heading {
+  padding-top: 100px;
+  color: #fab1a0;
+  padding-bottom: 40px;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size:16px;
+  font-family:"Work Sans", Arial, sans-serif;
+  color:#ADA99D;
+  margin: 0 auto;
+
+}
+
+.heading h3 {
+  font-weight: bold;
+  font-family: papyrus, fantasy;
+  font-size:42px;
+  margin: 0;
+}
+
+
+
+.detail {
+  margin-top: 60px;
+}
+
+.heading p{
+  font-size:18px;
+  font-weight: normal;
+  color: #b3aeb5;
+}
+
+.heading2 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #fab1a0;
+}
+
+.heading2 h2 {
+  font-weight: normal;
+  font-size:16px;
+  font-family:"Work Sans", Arial, sans-serif;
+  margin:0 auto;
+  color:#D9D9D9;
+}
+
+.heading2 h3 {
+  font-weight: bold;
+  font-family: papyrus, fantasy;
+  font-size:42px;
+  color:#fff;
+  margin:0;
+  padding-bottom:80px;
+}
+
+
+.message-wrapper2 {
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  background-color:#C8AEA3;
+}
+
+
+/* Awal Bagian 6 */
+
+.message-wrapper3 {
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  margin: auto;
+}
+
+
+.card {
+  height: 250px;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+.sub-card {
+  height: 200px;
+  width: 400px;
+  border: 2px solid grey;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
+input[type=button] {
+  cursor: pointer;
+  background-color: #fab1a0;
+  color: white;
+  padding: 8px;
+}
+
+input[type=text] {
+  padding: 5px;
+  margin: 5px 0;
+
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+
+}
+
+footer {
+  background-color: #fab1a0;
+
+}
+
