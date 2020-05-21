@@ -1,0 +1,78 @@
+/* Tablet */
+@media all and (max-width:1000px){
+    /* bagian 1 */
+    .header-right {
+        display: none;
+    }
+
+    .header-left {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    /* bagian 2 */
+    .lesson {
+        width: 50%;
+    }
+
+    /* bagian 3 */
+    .heading4 p {
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+    
+    /* bagian 4 dan 5 */
+    .heading2 iframe {
+        width: 600px;
+        height: 600px;
+    }
+
+    /* bagian 6 */
+
+}
+
+/* Smartphone */
+@media all and (max-width:670px){
+    
+    /* bagian 1 */
+    .header-right {
+        display: none;
+    }
+
+    .header-left {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* bagian 2 */
+    .lesson {
+        width: 100%;
+    }
+
+    /* bagian 3 */
+    .heading4 p {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+    /* bagian 4 dan 5 */
+    .heading2 iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* bagian 6 */
+    .card {
+        width: 400px; 
+        padding: 20px 5px;     
+      }
+
+}
+
